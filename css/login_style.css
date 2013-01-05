@@ -1,0 +1,45 @@
+body{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.corpo{
+    width: 980px;
+    min-height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.corpo #fazer_login{
+    margin-left: 130px;
+    position: absolute;
+    top: 380px;
+    font-family: Arial;
+    font-size: 13px;
+    width: 330px;
+}
+
+.caixa{
+    width: 250px;
+    height: 22px;
+}
+
+.corpo #fazer_cadastro{
+    margin-left: 530px;
+    position: absolute;
+    top: 380px;
+    font-family: Arial;
+    font-size: 13px;
+    width: 330px;
+}
+
+.corpo #recupera_senha{
+    position: absolute;
+    top: 454px;
+    margin-left: 200px;
+    font-family: Arial;
+    font-size: 12px;
+}

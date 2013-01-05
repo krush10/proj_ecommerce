@@ -1,0 +1,115 @@
+body{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.max_header{
+    width: 100%;
+    height: 150px;
+    background: #CCC; 
+    /*background:url(../img/header.jpg);*/
+}
+
+.max_header .header{
+    margin: 0 auto;
+    width: 980px;
+    height: 150px;
+    /*background: #CCC;*/
+}
+
+.max_header .header #img_logo{
+    padding: 17px;
+}
+
+.max_header .header #area_busca{
+    margin-top: -75px;
+    margin-left: 252px;
+}
+
+.btn_busca{
+    margin-left: -38px;
+    position: absolute;
+    top: 61px;
+}
+
+.txt_busca{
+    border: 1px solid #CCC;
+    height: 31px;
+    width: 400px;
+    font-size: 17px;
+    /* Adicionar bordas arrendondas */
+    border-radius:15px; 
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px;
+}
+
+.max_header .header #contato_loja{
+    margin-left: 261px;
+    margin-top: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.max_header .header #table_menu_header{
+    margin-top: -110px;
+    margin-left: 760px;
+    font-size: 12px;
+    font-family: arial;
+}
+
+.max_header .header #table_menu_header a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 15px;
+    color: #FFF;
+}
+
+.max_header .header #table_menu_header a:hover{
+    color: #000;
+}
+
+.max_header .header #table_menu_header_{
+    margin-left: 778px;
+    font-size: 12px;
+    font-family: arial;
+}
+
+.max_header .header #table_menu_header_ a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 15px;
+    color: #FFF;
+}
+
+.max_header .header #table_menu_header_ a#login{
+    font-size: 12px;
+}
+
+.max_header .header #table_menu_header_ a#cadastro{
+    font-size: 12px;
+}
+
+.max_header .header #table_menu_header_ a:hover{
+    color: #000;
+}
+
+.max_header .header #botao_carrinho{
+    margin-left: 822px;
+    margin-top: 30px;
+}
+
+.max_header .header #botao_carrinho a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 15px;
+    background: #FFF;
+    padding: 15px;
+    /* Adicionar bordas arrendondas */
+    border-radius: 30px; 
+    -moz-border-radius: 30px; 
+    -webkit-border-radius: 30px;
+    color: #333;
+}

@@ -1,0 +1,59 @@
+body{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.corpo{
+    width: 980px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.corpo #verifica_frete{
+    font-family: Arial;
+    font-size: 13px; 
+    width: 700px;
+    height: 75px;
+    background: #F3F3F3;
+    margin-left: 279px;
+    margin-top: 40px;
+}
+
+.corpo #conteudo table#topo_carrinho{
+   background-color:#F3F3F3; 
+   width:980px; 
+   margin-left:0px; 
+   font-family: Arial;
+   font-size: 13px;
+   margin-top: 30px;
+   
+   /* Adicionar bordas arrendondas em baixo */
+    border-radius:5px 5px 0 0; 
+    -moz-border-radius:5px 5px 0 0; 
+    -webkit-border-radius:5px 5px 0 0;
+}
+
+.corpo #conteudo table#topo_carrinho tr td{
+    height: 30px;
+}
+
+.corpo #conteudo table#conteudo_carrinho{
+   background-color:#FFF; 
+   width:984px;
+   margin-left:-2px; 
+   font-family: Arial;
+   font-size: 13px;
+}
+
+.corpo #conteudo table#conteudo_carrinho tr td{
+    border: 1px solid #EFEFEF;
+    height: 90px;
+}
+
+.btn_finalizar{
+    margin-left:658px;
+}

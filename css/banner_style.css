@@ -1,0 +1,20 @@
+body{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.area_banner_max{
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    /*background: #F3F3F3;*/
+}
+
+.area_banner_max #area_banner{
+    margin: 0 auto;
+    width: 980px;
+    height: 350px;
+    background: #F3F3F3;
+}

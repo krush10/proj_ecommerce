@@ -1,0 +1,31 @@
+body{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.corpo{
+    width: 980px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.corpo #usuario_logado{
+    margin-left: 0px;
+    padding: 30px;
+}
+
+.corpo #ultimo_pedido{
+    background: #F8F8F8;
+    padding: 15px;
+    width: 870px;
+    margin-left: 28px;
+}
+
+.corpo #mais_opcoes{
+    margin-top: 50px;
+    margin-left: 28px;
+}

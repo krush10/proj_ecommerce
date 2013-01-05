@@ -1,0 +1,14 @@
+body{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.corpo{
+    width: 980px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}

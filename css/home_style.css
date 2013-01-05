@@ -1,0 +1,155 @@
+body{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.corpo{
+    width: 980px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 120px;
+    /*border: 1px solid #EFEFEF;
+    /* Adicionar bordas arrendondas em baixo 
+    border-radius:0 0 10px 10px; 
+    -moz-border-radius: 0 0 10px 10px; 
+    -webkit-border-radius: 0 0 10px 10px;*/
+}
+
+.corpo #menu_lateral{
+    margin-left: 0px;
+    position: absolute;
+    top: 603px;
+    width: 185px;
+    min-height: 303px;
+    background: #CCC;
+    /*background: #79CAFF;*/
+    font-family: Arial;
+    font-size: 14px;
+    
+    /* Adicionar bordas arrendondas */
+    border-radius:5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+}
+
+.corpo #menu_lateral table{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.corpo #menu_lateral table a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.corpo #menu_lateral table a:hover{
+    color: #000;
+}
+
+.corpo #produtos_destaque{
+    margin-left: 212px;
+    margin-top: 44px;
+    width: 590px;
+    height: auto;
+}
+
+.corpo #produtos_destaque a{
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+    color: #0099FF;
+}
+
+.corpo #produtos_destaque a:hover{
+    text-decoration: underline;
+}
+
+.corpo #produtos_destaque p#texto_destaque{
+    font-family: Arial;
+    font-size: 18px;
+    color: #333;
+}
+
+.corpo #produtos_destaque p#preco{
+    font-size: 14px;
+    font-family: arial;
+    background: #E5E5E5;
+    
+    /* Adicionar bordas arrendondas */
+    border-radius:5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+}
+
+.corpo #produtos_mais_acessados{
+    margin-left: 212px;
+    margin-top: 44px;
+    width: 590px;
+    height: auto;
+}
+
+.corpo #produtos_mais_acessados a{
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+    color: #0099FF;
+}
+
+.corpo #produtos_mais_acessados a:hover{
+    text-decoration: underline;
+}
+
+.corpo #produtos_mais_acessados p#texto_destaque{
+    font-family: Arial;
+    font-size: 18px;
+    color: #333;
+}
+
+.corpo #produtos_mais_acessados p#preco{
+    font-size: 14px;
+    font-family: arial;
+    background: #E5E5E5;
+    
+    /* Adicionar bordas arrendondas */
+    border-radius:5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+}
+
+.corpo #produtos_mais_acessados p#texto_acessados{
+    font-family: Arial;
+    font-size: 18px;
+    color: #333;
+}
+
+.corpo #banner_direita{
+    width: 150px;
+    height: 240px;
+    background: #CCC;
+    margin-left: 830px;
+    position: absolute;
+    top: 606px;
+}
+
+.corpo #banner_direita_dois{
+    width: 150px;
+    height: 240px;
+    background: #CCC;
+    margin-left: 830px;
+    position: absolute;
+    top: 880px;
+}
+
+.corpo #banner_direita_tres{
+    width: 150px;
+    height: 240px;
+    background: #CCC;
+    margin-left: 830px;
+    position: absolute;
+    top: 1160px;
+}

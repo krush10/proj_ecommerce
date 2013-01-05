@@ -1,0 +1,119 @@
+body{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.corpo{
+    width: 980px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.corpo #link_inicial{
+    margin-left: 22px;
+    font-family: Arial;
+    font-size: 12px;
+    height: 20px;
+    border-bottom: 1px solid #E9E9E9;
+    width: 925px;
+}
+
+.corpo #link_inicial a{
+    color: #333;
+}
+
+.corpo #imagem_produto{
+    margin-left: 20px;
+    margin-top: 70px;
+    width: 300px;
+    height: 280px;
+}
+
+.corpo #nome_produto{
+    color: #333;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: -250px;
+    margin-left: 350px;
+    width: 590px;
+    padding: 4px;
+    
+    /* Adicionar bordas arrendondas */
+    border-radius:5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+}
+
+.corpo #social{
+    margin-top: 5px;
+    margin-left: 565px;
+}
+
+.corpo #social a{
+    color: #333;
+    font-family: Arial;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.corpo #faixa_preco{
+    width: 590px;
+    height: 140px;
+    background: #F3F3F3;
+    margin-top: 35px;
+    margin-left: 355px;
+    
+    /* Adicionar bordas arrendondas */
+    border-radius:5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+}
+
+.corpo #faixa_preco #preco{
+    padding: 45px;
+    margin-left: -10px;
+    font-family: Arial;
+    font-size: 18px;
+    color: #333;
+}
+
+.corpo #faixa_preco #preco p#em_ate{
+    font-size: 12px;
+}
+
+.corpo #faixa_preco #preco p#estoque{
+    font-size: 11px;
+    margin-top: -10px;
+}
+
+.corpo #descricao{
+    width: 980px;
+    min-height: 580px;
+    background: #FCFCFC;
+    margin-top: 55px;
+    margin-left: 0px;
+}
+
+.corpo #descricao #titulo{
+    padding: 6px;
+    /*background: #79CAFF;*/
+    background: #CCC;
+    font-family: Arial;
+    font-size: 12px;
+    color: #FFF;
+    /* Adicionar bordas arrendondas */
+    -moz-border-radius: 10px 10px 0 0; 
+    -webkit-border-radius: 10px 10px 0 0;
+}
+
+.corpo #descricao #conteudo{
+    width: 950px;
+    min-height: 580px;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 14px;
+}

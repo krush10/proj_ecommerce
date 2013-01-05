@@ -1,0 +1,85 @@
+body{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.corpo{
+    width: 980px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.corpo #menu_lateral{
+    margin-left: 0px;
+    position: absolute;
+    top: 240px;
+    width: 190px;
+    min-height: 303px;
+    /*background: #79CAFF;*/
+    background: #CCC;
+    font-family: Arial;
+    font-size: 14px;
+    
+    /* Adicionar bordas arrendondas */
+    border-radius:5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+}
+
+.corpo #menu_lateral table{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.corpo #menu_lateral table a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.corpo #menu_lateral table a:hover{
+    color: #000;
+}
+
+.corpo #onde_estou{
+    padding: 22px;
+    margin-left: 210px;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.corpo #onde_estou a{
+    color: #111;
+}
+
+.corpo #produtos_destaque{
+    margin-top: 10px;
+    margin-left: 230px;
+}
+
+.corpo #produtos_destaque a{
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+    color: #0099FF;
+}
+
+.corpo #produtos_destaque a:hover{
+    text-decoration: underline;
+}
+
+.corpo #produtos_destaque p#preco{
+    font-size: 14px;
+    font-family: arial;
+    background: #E5E5E5;
+    
+    /* Adicionar bordas arrendondas */
+    border-radius:5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+}
