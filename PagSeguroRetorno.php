@@ -48,7 +48,7 @@ if (count($_POST) > 0) {
 
 		$NumItens = $_POST['NumItens'];
                 
-                mysql_query("INSERT into ciclo_compra (cod_transacao,ciclo_status) VALUES ('$transacaoID','')");
+                mysql_query("INSERT into ciclo_compra (cod_transacao,ciclo_status) VALUES ('$transacaoID','aberto')");
 		
 		// Gravando Dados
 		mysql_query("INSERT into pagsegurotransacoes SET
