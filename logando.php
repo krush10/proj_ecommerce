@@ -67,7 +67,7 @@ if($total)
 				//echo "<script>history.go(-1);<script>";
 			//}else{
 			
-			echo "<script>history.go(-2);</script>";
+			echo "<script>location.href='index.php'</script>";
 			
 			$_SESSION["id_usuario"]   = $dados["id"];
                         $_SESSION["email_usuario"] = $dados["email"];
