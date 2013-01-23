@@ -105,6 +105,9 @@ $homeAction = new HomeAction();
                 <td><?php include("function_btn_pagamento_checkout.php"); ?></td>
                 </tr>
             </table>
+            <form id="checkoutpay" action="checkout-paypal.php" method="post">
+                <img id="ec-button" src="https://www.paypal.com/pt_BR/i/btn/btn_xpressCheckout.gif" onClick="checkoutpay.submit();" />
+            </form>
         </div>
         <?php include("footer.php"); ?>
     </body>
