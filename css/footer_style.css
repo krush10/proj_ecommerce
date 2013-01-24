@@ -10,11 +10,20 @@ body{
     height: 500px;
     background: #CCC;
     /*background: #79CAFF;*/
+    background:url(../img/footer.jpg);
 }
 
 .max_footer .footer{
     margin: 0 auto;
     width: 980px;
     height: 400px;
-    /*background: #CCC; /*background: #CCC;*/
+}
+
+.max_footer .footer #area_busca{
+    padding: 7px;
+    margin-left: 340px;
+}
+
+.max_footer .footer #img_pagamento{
+    margin-top: 100px;
 }
